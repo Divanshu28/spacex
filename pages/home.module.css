@@ -1,0 +1,45 @@
+.home {
+    background-color: #efefef;
+    height: 100%;
+    min-height: 100vh;
+    padding-left: 20px;
+    font-family: sans-serif;
+}
+
+.container {  
+    display: flex; 
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 700px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+} 
+
+.filterContainer {
+    height: auto;
+    width: 15%;
+    min-width: 230px;
+    padding-left:30px;  
+}
+
+.launchContainer {
+    position: absolute;
+    left: 320px;
+    width: calc(100vw - 320px);
+    height: 84.5%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 700px) {
+    .launchContainer{
+        position: relative;
+        left: -13px;
+        width: calc(100vw - 30px);
+    }
+} 

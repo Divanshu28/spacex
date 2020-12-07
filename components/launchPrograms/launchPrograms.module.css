@@ -1,0 +1,59 @@
+.launch {
+    flex: 1 0 21%;
+    margin: 5px;
+    height: 450px;
+    max-height: 450px;
+    max-width: 250px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .launch {
+        flex: 1 0 41%;
+        max-width: 360px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .launch {
+        flex: 1 0 47%;
+    }
+}
+
+.launchImg {
+    height: 200px;
+    width: 200px;
+    background-color: #efefef;
+    margin-top: 10%;
+    margin-left: 10%
+}
+
+@media only screen and (max-width: 1400px) {
+    .launchImg {
+        box-sizing: border-box;
+        height: 210px;
+        width: 290px;
+        padding-top: 10px;
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .launchImg {
+        box-sizing: border-box;
+        height: 210px;
+        width: 260px;
+        padding-top: 10px;
+        padding-left: 30px;
+    }
+}
+
+.launchDetails {
+    padding-left: 30px;;
+}
+
+.launchDetails p {
+    color: rgb(0, 81, 255);
+}
+

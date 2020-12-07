@@ -1,0 +1,43 @@
+.filters {
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 10px 60px;
+    border-radius: 6px;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.toggleButton {
+    background-color: rgb(173, 245, 176);
+    margin-top: 10px;
+    border: 1px solid rgb(173, 245, 176);
+    border-radius: 4px;
+    color: #4f4f4f;
+}
+
+.toggleButton:focus {outline:0;}
+
+.toggleButton:active {
+    border: none;
+}
+
+.activeButton {
+    background-color: rgb(34, 133, 39);
+    margin-top: 10px;
+    border: 1px solid rgb(34, 133, 39);
+    border-radius: 4px;
+    color: #fff;
+}
+
+.activeButton:focus {outline:0;}
+
+.heading {
+    text-align: center;
+    font-size: small;
+    border-bottom: 1px solid rgb(190, 190, 190);
+    color:  #4f4f4f;
+}
