@@ -10,7 +10,7 @@ npm run dev
 The project has been deployed on vercel.com with CI/CD pipeline in place.The commits made to GitHub  will automatically issue Deployments for your Personal Account on Vercel. 
 
 The app can be seen at :
-spacexlaunch-roan.vercel.app
+https://spacexlaunch-roan.vercel.app
 
 The app uses server side rendering with next.js and uses getServerSideProps function for supplying props to the home component initially and also for data fetching before rendering the component. The filter values applied by user are stored in cookies so that they can be accessed at the server side and the resulting page is served from server upon refresh and corresponding filters values are chnaged on the client side.
 
