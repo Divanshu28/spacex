@@ -17,4 +17,4 @@ The app uses server side rendering with next.js and uses getServerSideProps func
 The app is fully optimised and follows the best practices as the same is reflected by the LightHouse score.
 
 
-![alt text](https://github.com/Divanshu28/spacex/issues/1#issue-759339455)
+![alt tag](https://github.com/Divanshu28/spacex/issues/1#issue-759339455)
