@@ -5,7 +5,7 @@ import styles from './launchPrograms.module.css'
 function launchPrograms({ data }) {
     const domLaunches = data.map((launch) => {
         return (
-            <div className={styles.launch}>
+            <div className={styles.launch} key={launch.flight_number}>
                 <div className={styles.launchImg}>
                     <Image src={launch.links.mission_patch_small || "/notFound.png"} alt="Launch" width={200} height={200}/>
                 </div>
